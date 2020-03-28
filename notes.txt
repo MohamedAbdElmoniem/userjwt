@@ -1,0 +1,21 @@
+- create server ( express js ).
+- how to deal with requests ( get , post ).
+- how to deal with req.body.
+- create apis.
+- create db connection.
+- create db collection schema , model.
+- handle user session ( signup , signin , signout ) --> ( jsonwebtoken --> (sign,verify) )
+- how to create ( common , config ) folders.
+- db queries ( find , findOne , findOneAndUpdate , remove , select , populate )
+- db queries ( gte , lte , lt , gt , where ).
+- middleware functions ( req, resp, next).
+- how to deal with cookies to handle user sessions ( cookie-parser ).
+
+libraries : npm install express mongoose jsonwebtoken cookie-parser --save
+
+mongoose doc : https://mongoosejs.com/docs/queries.html
+
+expressjs doc : https://expressjs.com/
+
+jsonwebtoken doc : https://www.sohamkamani.com/blog/javascript/2019-03-29-node-jwt-authentication/
+
