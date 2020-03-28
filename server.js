@@ -12,7 +12,6 @@ CreateDBConnection()
 UserApis(app)
 ProductApis(app)
 
-// first api 
 app.get("/", (req, resp) => {
     resp.json({ message: 'server is running..' })
 })
