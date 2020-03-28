@@ -19,3 +19,11 @@ expressjs doc : https://expressjs.com/
 
 jsonwebtoken doc : https://www.sohamkamani.com/blog/javascript/2019-03-29-node-jwt-authentication/
 
+after pushing code in github and deployment : 
+
+ https://userjwt.herokuapp.com/signup  {"username":"moniem1","email":"a2@a.com","password":"123456","age":40,"phone":"+20342342"}
+ https://userjwt.herokuapp.com/signin  {"username":"moniem1","password":"123456"} 
+ https://userjwt.herokuapp.com/allusers
+ https://userjwt.herokuapp.com/signout 
+
+github url : https://github.com/MohamedAbdElmoniem/userjwt
