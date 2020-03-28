@@ -16,4 +16,4 @@ app.get("/", (req, resp) => {
     resp.json({ message: 'server is running..' })
 })
 
-app.listen(8081)
+app.listen(process.env.PORT)
