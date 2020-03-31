@@ -45,7 +45,6 @@ function UserApis(app) {
             resp.cookie('token', token, { maxAge: 10 * 1000 }) // milliseconds frontend
             resp.cookie('refreshToken', refreshToken, { maxAge: 300 * 1000 }) // milliseconds frontend
             user = await UserModel.findOne({ username }).select("username email phone age")
-            console.log(user)
             resp.json({ message: 'success', user })
         } else {
             // not found in database
